@@ -1,0 +1,47 @@
+{
+  "name": "Paste Plus",
+  "version": "0.0.1",
+  "description": "Paste frequently used strings via chrome://extensions/shortcuts",
+  "short_name": "Paste+",
+  "commands": {
+    "text_1_paste": { "description": "Shortcut - String 1", "suggested_key": { "default": "Alt+Shift+1" } },
+    "text_2_paste": { "description": "Shortcut - String 2", "suggested_key": { "default": "Alt+Shift+2" } },
+    "text_3_paste": { "description": "Shortcut - String 3", "suggested_key": { "default": "Alt+Shift+3" } },
+    "text_4_paste": { "description": "Shortcut - String 4", "suggested_key": { "default": "Alt+Shift+4" } },
+    "text_5_paste": { "description": "Shortcut - String 5" },
+    "text_6_paste": { "description": "Shortcut - String 6" },
+    "text_7_paste": { "description": "Shortcut - String 7" },
+    "text_8_paste": { "description": "Shortcut - String 8" },
+    "text_9_paste": { "description": "Shortcut - String 9"},
+    "text_a_paste": { "description": "Shortcut - String a"},
+    "text_b_paste": { "description": "Shortcut - String b"},
+    "text_c_paste": { "description": "Shortcut - String c"},
+    "text_d_paste": { "description": "Shortcut - String d"},
+    "text_e_paste": { "description": "Shortcut - String e"},
+    "text_f_paste": { "description": "Shortcut - String f"}
+  },
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icon_16.png",
+      "32": "images/icon_32.png",
+      "64": "images/icon_64.png",
+      "128": "images/icon_128.png"
+    },
+    "default_title": "Paste Plus"
+  },
+  "icons": {
+      "16": "images/icon_16.png",
+      "32": "images/icon_32.png",
+      "64": "images/icon_64.png",
+      "128": "images/icon_128.png"
+   },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "options_page":  "options.html",
+  "permissions": [ "activeTab", "contextMenus", "storage" ],
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "manifest_version": 2
+}
