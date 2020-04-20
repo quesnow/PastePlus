@@ -11,3 +11,6 @@ Chrome extension to allow quick paste via shortcut
 7. open up any input box in your webpage, e.g. search box in duckduckgo.com, try key combination
 
 If you have any issue, submit a ticket.
+
+## Or,
+You can add to Chrome browser via webstore: https://chrome.google.com/webstore/detail/paste-plus/lbkclidnnkhhiibmkndfedhgnfbbpcji?hl=en-US
